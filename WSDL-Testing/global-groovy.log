@@ -1,0 +1,76 @@
+2020-07-23 00:49:36,846 INFO  [log] Status: FINISHED, time taken for TestCase was: 14819 ms
+2020-07-23 00:49:36,876 INFO  [log] Number of test steps which ran: 7
+2020-07-23 00:49:38,534 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   <env:Body>
+      <ns1:customerCustomerRepositoryV1SaveResponse>
+         <result>
+            <id>4085</id>
+            <groupId>1</groupId>
+            <defaultBilling>3329</defaultBilling>
+            <defaultShipping>3329</defaultShipping>
+            <createdAt>2020-07-22 19:19:35</createdAt>
+            <updatedAt>2020-07-22 19:19:35</updatedAt>
+            <createdIn>Default Store View</createdIn>
+            <dob>1994-11-24</dob>
+            <email>Bush@gmail.com</email>
+            <firstname>Akshatha</firstname>
+            <lastname>Kamanahalli</lastname>
+            <storeId>1</storeId>
+            <websiteId>1</websiteId>
+            <addresses>
+               <item>
+                  <id>3329</id>
+                  <customerId>4085</customerId>
+                  <region>
+                     <regionCode>Karnataka</regionCode>
+                     <region>Karnataka</region>
+                     <regionId>0</regionId>
+                  </region>
+                  <regionId>0</regionId>
+                  <countryId>IN</countryId>
+                  <street>
+                     <item>#55, 1 st Main Road</item>
+                  </street>
+                  <telephone>+91 9876543210</telephone>
+                  <postcode>560023</postcode>
+                  <city>Gadag</city>
+                  <firstname>Akshatha</firstname>
+                  <lastname>Kamanahalli</lastname>
+                  <defaultShipping>true</defaultShipping>
+                  <defaultBilling>true</defaultBilling>
+               </item>
+            </addresses>
+            <disableAutoGroupChange>0</disableAutoGroupChange>
+            <extensionAttributes>
+               <isSubscribed>false</isSubscribed>
+            </extensionAttributes>
+         </result>
+      </ns1:customerCustomerRepositoryV1SaveResponse>
+   </env:Body>
+</env:Envelope>
+2020-07-23 00:49:38,676 INFO  [log] 4085
+2020-07-23 00:49:38,684 INFO  [log] 3329
+2020-07-23 00:49:47,115 INFO  [log] 3329
+2020-07-23 00:49:58,820 INFO  [log] <Results>
+    <ResultSet fetchSize="0">
+        <Row rowNumber="1">
+            <CUSTOMERS.EMAIL>akshu182424@gmail.com</CUSTOMERS.EMAIL>
+            <CUSTOMERS.FIRSTNAME>Akshatha</CUSTOMERS.FIRSTNAME>
+            <CUSTOMERS.LASTNAME>Kamanahalli</CUSTOMERS.LASTNAME>
+        </Row>
+        <Row rowNumber="2">
+            <CUSTOMERS.EMAIL>ambu1824@gmail.com</CUSTOMERS.EMAIL>
+            <CUSTOMERS.FIRSTNAME>Amrutha</CUSTOMERS.FIRSTNAME>
+            <CUSTOMERS.LASTNAME>Kamanahalli</CUSTOMERS.LASTNAME>
+        </Row>
+    </ResultSet>
+</Results>
+
+2020-07-23 00:49:58,847 INFO  [log] akshu182424@gmail.com
+2020-07-23 00:50:15,238 INFO  [log] Status: FINISHED, time taken for TestCase was: 16328 ms
+2020-07-23 00:50:15,260 INFO  [log] Number of test steps which ran: 7
+2020-07-23 00:50:16,028 INFO  [log] Total noumberof rows are 1
+2020-07-23 00:50:16,032 INFO  [log] Total noumberof rows are 2
+2020-07-23 00:50:16,058 INFO  [log] EmailId is Akshu1234@gmail.com
+2020-07-23 00:50:16,060 INFO  [log] Accesstoken is f0rf13pxtxp7mftwc23rq6e52yvmi5um
+2020-07-23 00:50:32,783 INFO  [log] Number of test Steps got executed7

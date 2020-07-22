@@ -1,0 +1,489 @@
+2020-07-23 00:48:53,499 WARN  [SoapUI] Missing folder [C:\Users\AkshathaKamanahalli\Desktop\API_Project\WSDL-Testing\ext] for external libraries
+2020-07-23 00:48:53,784 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\AkshathaKamanahalli\soapui-settings.xml]
+2020-07-23 00:48:56,019 INFO  [PluginManager] Adding plugin from [C:\Users\AkshathaKamanahalli\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2020-07-23 00:48:56,019 INFO  [PluginManager] Adding plugin from [C:\Users\AkshathaKamanahalli\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2020-07-23 00:48:57,266 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-07-23 00:48:57,272 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-23 00:48:57,498 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-07-23 00:48:57,501 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-23 00:48:57,540 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-07-23 00:48:57,543 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-23 00:48:57,688 INFO  [PluginManager] Adding plugin from [C:\Users\AkshathaKamanahalli\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+2020-07-23 00:48:57,971 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-07-23 00:48:57,977 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-23 00:48:58,154 INFO  [PluginManager] Adding plugin from [C:\Users\AkshathaKamanahalli\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2020-07-23 00:48:58,980 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-07-23 00:48:58,982 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-23 00:48:59,036 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-07-23 00:48:59,038 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-23 00:48:59,175 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-07-23 00:48:59,188 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-23 00:48:59,321 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-07-23 00:48:59,322 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-23 00:48:59,442 INFO  [PluginManager] Adding plugin from [C:\Users\AkshathaKamanahalli\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+2020-07-23 00:48:59,968 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-07-23 00:48:59,969 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-23 00:49:00,127 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-07-23 00:49:00,131 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-23 00:49:00,223 INFO  [PluginManager] 5 plugins loaded in 4206 ms
+2020-07-23 00:49:00,224 INFO  [DefaultSoapUICore] All plugins loaded
+2020-07-23 00:49:01,895 INFO  [WsdlProject] Loaded project from [file:/C:/Users/AkshathaKamanahalli/Desktop/API_Project/WSDL-Testing/customerCustomerRepositoryV1-soapui-project.xml]
+2020-07-23 00:49:01,902 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [customerCustomerRepositoryV1]
+2020-07-23 00:49:01,912 INFO  [SoapUITestCaseRunner] Running Project [customerCustomerRepositoryV1], runType = SEQUENTIAL
+2020-07-23 00:49:01,932 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [E2E API SOAP Testing]
+2020-07-23 00:49:01,963 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-23 00:49:02,086 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-07-23 00:49:02,677 INFO  [SoapUITestCaseRunner] running step [CreateCustomer]
+2020-07-23 00:49:05,342 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshathaKamanahalli/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2020-07-23 00:49:05,428 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshathaKamanahalli/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2020-07-23 00:49:05,439 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshathaKamanahalli/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2020-07-23 00:49:05,446 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshathaKamanahalli/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2020-07-23 00:49:05,452 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshathaKamanahalli/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2020-07-23 00:49:05,471 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshathaKamanahalli/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2020-07-23 00:49:05,478 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshathaKamanahalli/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2020-07-23 00:49:05,485 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshathaKamanahalli/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2020-07-23 00:49:05,495 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshathaKamanahalli/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2020-07-23 00:49:05,502 INFO  [SchemaUtils] Added default schema from file:/C:/Users/AkshathaKamanahalli/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2020-07-23 00:49:05,507 INFO  [SchemaUtils] Loading schema types from [file:/C:/Users/AkshathaKamanahalli/Desktop/SDT/API_testing/API_Testing_Project/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/customerCustomerRepositoryV1.xml]
+2020-07-23 00:49:05,512 INFO  [SchemaUtils] Getting schema file:/C:/Users/AkshathaKamanahalli/Desktop/SDT/API_testing/API_Testing_Project/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/customerCustomerRepositoryV1.xml
+2020-07-23 00:49:06,118 WARN  [WsdlValidator] Missing matching Fault in wsdl for bindingOperation [customerCustomerRepositoryV1Save]
+2020-07-23 00:49:06,127 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:06,129 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:06,131 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
+2020-07-23 00:49:06,134 INFO  [SoapUITestCaseRunner] Assertion [Invalid HTTP Status Codes] has status UNKNOWN
+2020-07-23 00:49:06,137 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-07-23 00:49:06,139 INFO  [SoapUITestCaseRunner] running step [GetAllCustomer]
+2020-07-23 00:49:12,526 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:12,529 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:12,530 INFO  [SoapUITestCaseRunner] running step [GetCustomer]
+2020-07-23 00:49:13,651 WARN  [WsdlValidator] Missing matching Fault in wsdl for bindingOperation [customerCustomerRepositoryV1GetById]
+2020-07-23 00:49:13,656 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:13,664 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:13,669 INFO  [SoapUITestCaseRunner] running step [DeleteCustomer]
+2020-07-23 00:49:15,084 WARN  [WsdlValidator] Missing matching Fault in wsdl for bindingOperation [customerCustomerRepositoryV1DeleteById]
+2020-07-23 00:49:15,094 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:15,098 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:15,108 INFO  [SoapUITestCaseRunner] running step [GetAllCustomersAfterCustomerDeleted]
+2020-07-23 00:49:20,413 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:20,414 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:20,427 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [E2E API SOAP Testing], time taken: 18374ms, status: FINISHED
+2020-07-23 00:49:20,437 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [System Testing]
+2020-07-23 00:49:20,437 INFO  [SoapUITestCaseRunner] running step [System Testing]
+2020-07-23 00:49:21,909 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [E2E API SOAP Testing]
+2020-07-23 00:49:21,910 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-23 00:49:21,914 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-07-23 00:49:21,928 INFO  [SoapUITestCaseRunner] running step [CreateCustomer]
+2020-07-23 00:49:23,471 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:23,485 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:23,488 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
+2020-07-23 00:49:23,498 INFO  [SoapUITestCaseRunner] Assertion [Invalid HTTP Status Codes] has status UNKNOWN
+2020-07-23 00:49:23,502 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-07-23 00:49:23,515 INFO  [SoapUITestCaseRunner] running step [GetAllCustomer]
+2020-07-23 00:49:28,175 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:28,177 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:28,178 INFO  [SoapUITestCaseRunner] running step [GetCustomer]
+2020-07-23 00:49:29,410 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:29,411 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:29,415 INFO  [SoapUITestCaseRunner] running step [DeleteCustomer]
+2020-07-23 00:49:30,839 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:30,841 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:30,844 INFO  [SoapUITestCaseRunner] running step [GetAllCustomersAfterCustomerDeleted]
+2020-07-23 00:49:36,818 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:36,820 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:36,821 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [E2E API SOAP Testing], time taken: 14819ms, status: FINISHED
+2020-07-23 00:49:36,846 INFO  [log] Status: FINISHED, time taken for TestCase was: 14819 ms
+2020-07-23 00:49:36,876 INFO  [log] Number of test steps which ran: 7
+2020-07-23 00:49:36,884 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [System Testing], time taken: 16444ms, status: FINISHED
+2020-07-23 00:49:36,887 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Test using Script Assertion And Custom Properties]
+2020-07-23 00:49:36,888 INFO  [SoapUITestCaseRunner] running step [CreateCustomer]
+2020-07-23 00:49:38,534 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   <env:Body>
+      <ns1:customerCustomerRepositoryV1SaveResponse>
+         <result>
+            <id>4085</id>
+            <groupId>1</groupId>
+            <defaultBilling>3329</defaultBilling>
+            <defaultShipping>3329</defaultShipping>
+            <createdAt>2020-07-22 19:19:35</createdAt>
+            <updatedAt>2020-07-22 19:19:35</updatedAt>
+            <createdIn>Default Store View</createdIn>
+            <dob>1994-11-24</dob>
+            <email>Bush@gmail.com</email>
+            <firstname>Akshatha</firstname>
+            <lastname>Kamanahalli</lastname>
+            <storeId>1</storeId>
+            <websiteId>1</websiteId>
+            <addresses>
+               <item>
+                  <id>3329</id>
+                  <customerId>4085</customerId>
+                  <region>
+                     <regionCode>Karnataka</regionCode>
+                     <region>Karnataka</region>
+                     <regionId>0</regionId>
+                  </region>
+                  <regionId>0</regionId>
+                  <countryId>IN</countryId>
+                  <street>
+                     <item>#55, 1 st Main Road</item>
+                  </street>
+                  <telephone>+91 9876543210</telephone>
+                  <postcode>560023</postcode>
+                  <city>Gadag</city>
+                  <firstname>Akshatha</firstname>
+                  <lastname>Kamanahalli</lastname>
+                  <defaultShipping>true</defaultShipping>
+                  <defaultBilling>true</defaultBilling>
+               </item>
+            </addresses>
+            <disableAutoGroupChange>0</disableAutoGroupChange>
+            <extensionAttributes>
+               <isSubscribed>false</isSubscribed>
+            </extensionAttributes>
+         </result>
+      </ns1:customerCustomerRepositoryV1SaveResponse>
+   </env:Body>
+</env:Envelope>
+2020-07-23 00:49:38,676 INFO  [log] 4085
+2020-07-23 00:49:38,684 INFO  [log] 3329
+2020-07-23 00:49:38,696 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:38,701 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:38,702 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-23 00:49:38,704 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-23 00:49:38,709 INFO  [SoapUITestCaseRunner] running step [GetAllCustomers]
+2020-07-23 00:49:45,709 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:45,709 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:45,711 INFO  [SoapUITestCaseRunner] running step [GetCustomer]
+2020-07-23 00:49:47,022 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:47,023 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:47,030 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-07-23 00:49:47,115 INFO  [log] 3329
+2020-07-23 00:49:47,117 INFO  [SoapUITestCaseRunner] running step [addressId]
+2020-07-23 00:49:47,121 INFO  [SoapUITestCaseRunner] running step [GetAddress]
+2020-07-23 00:49:48,371 INFO  [SchemaUtils] Loading schema types from [file:/C:/Users/AkshathaKamanahalli/Desktop/SDT/API_testing/API_Testing_Project/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/customerAddressRepositoryV1.xml]
+2020-07-23 00:49:48,379 INFO  [SchemaUtils] Getting schema file:/C:/Users/AkshathaKamanahalli/Desktop/SDT/API_testing/API_Testing_Project/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/customerAddressRepositoryV1.xml
+2020-07-23 00:49:48,487 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:48,488 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:48,490 INFO  [SoapUITestCaseRunner] running step [DeleteAddress]
+2020-07-23 00:49:49,688 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:49,689 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:49,691 INFO  [SoapUITestCaseRunner] running step [GetCustomerAfterDeletingAddress]
+2020-07-23 00:49:51,181 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:51,182 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:51,186 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-07-23 00:49:51,190 INFO  [SoapUITestCaseRunner] Assertion [XQuery Match] has status VALID
+2020-07-23 00:49:51,191 INFO  [SoapUITestCaseRunner] running step [DeleteCustomer]
+2020-07-23 00:49:52,748 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:52,749 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:52,758 INFO  [SoapUITestCaseRunner] running step [GetAllCustomerAfterDeleteCustomer]
+2020-07-23 00:49:58,521 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:49:58,521 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:49:58,524 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Test using Script Assertion And Custom Properties], time taken: 21543ms, status: FINISHED
+2020-07-23 00:49:58,529 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Database Testing]
+2020-07-23 00:49:58,531 INFO  [SoapUITestCaseRunner] running step [JDBC Request]
+2020-07-23 00:49:58,779 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-07-23 00:49:58,779 INFO  [SoapUITestCaseRunner] Assertion [XQuery Match] has status VALID
+2020-07-23 00:49:58,781 INFO  [SoapUITestCaseRunner] running step [Script]
+2020-07-23 00:49:58,820 INFO  [log] <Results>
+    <ResultSet fetchSize="0">
+        <Row rowNumber="1">
+            <CUSTOMERS.EMAIL>akshu182424@gmail.com</CUSTOMERS.EMAIL>
+            <CUSTOMERS.FIRSTNAME>Akshatha</CUSTOMERS.FIRSTNAME>
+            <CUSTOMERS.LASTNAME>Kamanahalli</CUSTOMERS.LASTNAME>
+        </Row>
+        <Row rowNumber="2">
+            <CUSTOMERS.EMAIL>ambu1824@gmail.com</CUSTOMERS.EMAIL>
+            <CUSTOMERS.FIRSTNAME>Amrutha</CUSTOMERS.FIRSTNAME>
+            <CUSTOMERS.LASTNAME>Kamanahalli</CUSTOMERS.LASTNAME>
+        </Row>
+    </ResultSet>
+</Results>
+
+2020-07-23 00:49:58,847 INFO  [log] akshu182424@gmail.com
+2020-07-23 00:49:58,848 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [E2E API SOAP Testing]
+2020-07-23 00:49:58,849 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-23 00:49:58,852 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-07-23 00:49:58,854 INFO  [SoapUITestCaseRunner] running step [CreateCustomer]
+2020-07-23 00:50:00,527 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:50:00,527 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:50:00,529 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
+2020-07-23 00:50:00,531 INFO  [SoapUITestCaseRunner] Assertion [Invalid HTTP Status Codes] has status UNKNOWN
+2020-07-23 00:50:00,535 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-07-23 00:50:00,535 INFO  [SoapUITestCaseRunner] running step [GetAllCustomer]
+2020-07-23 00:50:06,237 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:50:06,238 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:50:06,239 INFO  [SoapUITestCaseRunner] running step [GetCustomer]
+2020-07-23 00:50:07,497 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:50:07,499 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:50:07,507 INFO  [SoapUITestCaseRunner] running step [DeleteCustomer]
+2020-07-23 00:50:10,160 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:50:10,160 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:50:10,162 INFO  [SoapUITestCaseRunner] running step [GetAllCustomersAfterCustomerDeleted]
+2020-07-23 00:50:15,216 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:50:15,223 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:50:15,225 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [E2E API SOAP Testing], time taken: 16328ms, status: FINISHED
+2020-07-23 00:50:15,238 INFO  [log] Status: FINISHED, time taken for TestCase was: 16328 ms
+2020-07-23 00:50:15,260 INFO  [log] Number of test steps which ran: 7
+2020-07-23 00:50:15,267 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Database Testing], time taken: 16717ms, status: FINISHED
+2020-07-23 00:50:15,322 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [DataDriven Testing]
+2020-07-23 00:50:15,327 INFO  [SoapUITestCaseRunner] running step [Data Driven Testing]
+2020-07-23 00:50:16,028 INFO  [log] Total noumberof rows are 1
+2020-07-23 00:50:16,032 INFO  [log] Total noumberof rows are 2
+2020-07-23 00:50:16,058 INFO  [log] EmailId is Akshu1234@gmail.com
+2020-07-23 00:50:16,060 INFO  [log] Accesstoken is f0rf13pxtxp7mftwc23rq6e52yvmi5um
+2020-07-23 00:50:16,064 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [E2E API SOAP Testing]
+2020-07-23 00:50:16,067 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-23 00:50:16,068 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-07-23 00:50:16,074 INFO  [SoapUITestCaseRunner] running step [CreateCustomer]
+2020-07-23 00:50:17,561 WARN  [WsdlValidator] Missing matching Fault in wsdl for bindingOperation [customerCustomerRepositoryV1Save]
+2020-07-23 00:50:17,571 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:50:17,577 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:50:17,580 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
+2020-07-23 00:50:17,586 INFO  [SoapUITestCaseRunner] Assertion [Invalid HTTP Status Codes] has status UNKNOWN
+2020-07-23 00:50:17,595 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-07-23 00:50:17,599 INFO  [SoapUITestCaseRunner] running step [GetAllCustomer]
+2020-07-23 00:50:23,950 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:50:23,950 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:50:23,952 INFO  [SoapUITestCaseRunner] running step [GetCustomer]
+2020-07-23 00:50:25,536 WARN  [WsdlValidator] Missing matching Fault in wsdl for bindingOperation [customerCustomerRepositoryV1GetById]
+2020-07-23 00:50:25,537 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:50:25,544 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:50:25,550 INFO  [SoapUITestCaseRunner] running step [DeleteCustomer]
+2020-07-23 00:50:26,735 WARN  [WsdlValidator] Missing matching Fault in wsdl for bindingOperation [customerCustomerRepositoryV1DeleteById]
+2020-07-23 00:50:26,737 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:50:26,742 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:50:26,744 INFO  [SoapUITestCaseRunner] running step [GetAllCustomersAfterCustomerDeleted]
+2020-07-23 00:50:32,767 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-07-23 00:50:32,767 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-07-23 00:50:32,779 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [E2E API SOAP Testing], time taken: 16628ms, status: FINISHED
+2020-07-23 00:50:32,783 INFO  [log] Number of test Steps got executed7
+2020-07-23 00:50:32,788 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [DataDriven Testing], time taken: 17442ms, status: FINISHED
+2020-07-23 00:50:32,794 INFO  [SoapUITestCaseRunner] Project [customerCustomerRepositoryV1] finished with status [FINISHED] in 90876ms
+2020-07-23 00:50:39,534 WARN  [Tools] Could not delete temporary directory C:\Users\AKSHAT~1\AppData\Local\Temp\27944bc5-d8db-4c07-a475-5d0d7c076298
+2020-07-23 00:50:39,538 WARN  [Tools] Could not delete temporary directory C:\Users\AKSHAT~1\AppData\Local\Temp\33c0874f-42eb-43e8-ad62-723ce19f96ec
